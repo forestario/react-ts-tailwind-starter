@@ -17,6 +17,7 @@ export default defineConfig((configEnv) => {
     },
     resolve: {
       alias: {
+        assets: resolve(__dirname, 'src', 'assets'),
         components: resolve(__dirname, 'src', 'components'),
         hooks: resolve(__dirname, 'src', 'hooks'),
       },
